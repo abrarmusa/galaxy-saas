@@ -7,7 +7,6 @@ Boilerplate for creating fullstack apps using following technologies:
 * React
 * Redux
 * React router V4
-* JQuery
 
 
 ### Backend Technologies:
@@ -24,7 +23,7 @@ The frontend and the backend are completely independent of each other.
 
 ## Features:
 * navbar provided with options such as sign in, sign out, sign up, user's settings, sign out
-* users can be created and signed in and out, they can modify their personal info, change password etc...
+* registration system with JWT
 * 3 CSS framework boilerplates included, just choose one you are going to use
 
 ## Getting started:
