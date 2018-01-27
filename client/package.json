@@ -7,9 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "NODE_ENV='production' webpack -p",
-    "deploy": "npm run build&&gh-pages -d build",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "alan2207",
   "license": "ISC",
@@ -18,15 +16,9 @@
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
-    "chai": "^3.5.0",
-    "chai-jquery": "^2.0.0",
     "css-loader": "^0.28.4",
     "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.28.0",
-    "jquery": "^2.2.1",
-    "jsdom": "^8.1.0",
-    "mocha": "^2.4.5",
-    "react-addons-test-utils": "^15.5.1",
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
